@@ -1,0 +1,254 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: "Geist", "Geist Fallback", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Geist Mono", "Geist Mono Fallback", ui-monospace, monospace;
+  --font-heading: var(--font-sans);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+:root {
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.145 0 0);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.145 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.145 0 0);
+  --primary: oklch(0.205 0 0);
+  --primary-foreground: oklch(0.985 0 0);
+  --secondary: oklch(0.97 0 0);
+  --secondary-foreground: oklch(0.205 0 0);
+  --muted: oklch(0.97 0 0);
+  --muted-foreground: oklch(0.556 0 0);
+  --accent: oklch(0.97 0 0);
+  --accent-foreground: oklch(0.205 0 0);
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: oklch(0.922 0 0);
+  --input: oklch(0.922 0 0);
+  --ring: oklch(0.708 0 0);
+  --chart-1: oklch(0.87 0 0);
+  --chart-2: oklch(0.556 0 0);
+  --chart-3: oklch(0.439 0 0);
+  --chart-4: oklch(0.371 0 0);
+  --chart-5: oklch(0.269 0 0);
+  --radius: 0.625rem;
+  --sidebar: oklch(0.985 0 0);
+  --sidebar-foreground: oklch(0.145 0 0);
+  --sidebar-primary: oklch(0.205 0 0);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.97 0 0);
+  --sidebar-accent-foreground: oklch(0.205 0 0);
+  --sidebar-border: oklch(0.922 0 0);
+  --sidebar-ring: oklch(0.708 0 0);
+}
+
+.dark {
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.205 0 0);
+  --card-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.205 0 0);
+  --popover-foreground: oklch(0.985 0 0);
+  --primary: oklch(0.922 0 0);
+  --primary-foreground: oklch(0.205 0 0);
+  --secondary: oklch(0.269 0 0);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.269 0 0);
+  --muted-foreground: oklch(0.708 0 0);
+  --accent: oklch(0.269 0 0);
+  --accent-foreground: oklch(0.985 0 0);
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.556 0 0);
+  --chart-1: oklch(0.87 0 0);
+  --chart-2: oklch(0.556 0 0);
+  --chart-3: oklch(0.439 0 0);
+  --chart-4: oklch(0.371 0 0);
+  --chart-5: oklch(0.269 0 0);
+  --sidebar: oklch(0.205 0 0);
+  --sidebar-foreground: oklch(0.985 0 0);
+  --sidebar-primary: oklch(0.488 0.243 264.376);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.269 0 0);
+  --sidebar-accent-foreground: oklch(0.985 0 0);
+  --sidebar-border: oklch(1 0 0 / 10%);
+  --sidebar-ring: oklch(0.556 0 0);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  html {
+    @apply font-sans;
+  }
+}
+
+/* ===== manychat-com-a8ee4c04 root-8a5edab2 foundation ===== */
+
+@font-face {
+  font-family: "Rooftop";
+  src: url("/sites/manychat-com-a8ee4c04/root-8a5edab2/fonts/Rooftop-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rooftop";
+  src: url("/sites/manychat-com-a8ee4c04/root-8a5edab2/fonts/Rooftop-Bold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "ManyChatGravity";
+  src: url("/sites/manychat-com-a8ee4c04/root-8a5edab2/fonts/ManyChatGravity-Normal.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "CoFo Sans Mono";
+  src: url("/sites/manychat-com-a8ee4c04/root-8a5edab2/fonts/CoFoSansMono-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --color-mc-yellow: rgb(255 241 0);
+  --color-mc-magenta: rgb(250 12 247);
+  --color-mc-green: rgb(0 114 87);
+  --color-mc-indigo: rgb(59 66 196);
+  --color-mc-offwhite: rgb(237 242 237);
+  --color-mc-gray: rgb(153 153 153);
+  --font-gravity: "ManyChatGravity", sans-serif;
+  --font-rooftop: "Rooftop", sans-serif;
+  --font-cofo: "CoFo Sans Mono", ui-monospace, monospace;
+}
+
+/* Yellow sections: faint dark 1px grid, big cells */
+.mc-grid-yellow {
+  background-image: linear-gradient(to right, rgb(0 0 0 / 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(0 0 0 / 0.08) 1px, transparent 1px);
+  background-size: 250px 250px;
+}
+/* Indigo panel: white 1px grid */
+.mc-grid-indigo {
+  background-image: linear-gradient(to right, rgb(255 255 255 / 0.9) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(255 255 255 / 0.9) 1px, transparent 1px);
+  background-size: 236px 236px;
+}
+
+@keyframes mc-marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@keyframes mc-bounce-down {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(8px); }
+}
+@keyframes mc-caption-progress {
+  from { width: 0%; }
+  to { width: 100%; }
+}
+/* hand-drawn scribble draw-in */
+@keyframes mc-scribble-draw {
+  to { stroke-dashoffset: 0; }
+}
+/* hero chat bubbles pop-in */
+@keyframes mc-bubble-in {
+  from { opacity: 0; transform: translateY(14px) scale(0.96); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+/* ===== ouvretaconscience-com-85bd1675 root-8a5edab2 foundation ===== */
+
+@theme {
+  --color-otc-green: rgb(48 236 185);   /* #30ECB9 */
+  --color-otc-blue: rgb(13 59 175);     /* #0D3BAF */
+  --color-otc-beige: rgb(225 223 217);  /* #E1DFD9 */
+  --font-helvetica: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Typo fluide calée sur les valeurs computed du site (390px -> 1440px) */
+.otc-h2 { font-family: var(--font-otc-anton, "Anton"), "Arial Narrow", sans-serif; font-weight: 400; text-transform: uppercase; font-size: clamp(44.38px, calc(36.41px + 2.0434vw), 65.84px); line-height: 0.968; letter-spacing: 0.01em; }
+.otc-h3 { font-family: var(--font-otc-anton, "Anton"), "Arial Narrow", sans-serif; font-weight: 400; text-transform: uppercase; font-size: clamp(32.23px, calc(27.45px + 1.226vw), 45.1px); line-height: 1.021; letter-spacing: 0.01em; }
+.otc-h4 { font-family: var(--font-otc-anton, "Anton"), "Arial Narrow", sans-serif; font-weight: 400; text-transform: uppercase; font-size: clamp(24.13px, calc(21.47px + 0.6811vw), 31.28px); line-height: 1.056; letter-spacing: 0.01em; }
+.otc-p { font-family: var(--font-helvetica); font-size: clamp(15.01px, calc(14.75px + 0.0681vw), 15.73px); line-height: 1.5; letter-spacing: 0.02em; }
+.otc-p-lg { font-family: var(--font-helvetica); font-size: clamp(17.04px, calc(16.24px + 0.2043vw), 19.18px); line-height: 1.5; letter-spacing: 0.02em; }
+
+/* Boutons outline -> fill (transition exacte du site : 0.1s linear) */
+.otc-btn {
+  font-family: var(--font-helvetica);
+  text-transform: uppercase;
+  display: inline-flex; align-items: center; justify-content: center;
+  border: 2px solid currentColor; background: transparent; cursor: pointer;
+  transition: background-color 0.1s linear, color 0.1s linear;
+}
+.otc-btn--offer { color: #000; font-size: 15.73px; letter-spacing: 0.05em; padding: 15px 31.5px; border-radius: 5.6px; }
+.otc-btn--offer:hover { background: #000; color: #fff; border-color: #000; }
+.otc-btn--header { color: var(--color-otc-green); font-size: 12.27px; letter-spacing: 0.02em; padding: 12.27px 24.5px; border-radius: 5.6px; }
+.otc-btn--header:hover { background: var(--color-otc-green); color: #fff; border-color: var(--color-otc-green); }
+.otc-btn--footer { color: var(--color-otc-green); font-size: 15.73px; letter-spacing: 0.05em; padding: 15px 31.5px; border-radius: 5.6px; }
+.otc-btn--footer:hover { background: var(--color-otc-green); color: #000; border-color: var(--color-otc-green); }
+
+/* Reveal on scroll (equiv. Squarespace preFade/preSlide) */
+.otc-reveal { opacity: 0; transition: opacity 0.65s ease, transform 0.65s ease; }
+.otc-reveal--slide { transform: translateY(20px); }
+.otc-reveal.otc-in { opacity: 1; transform: none; }
+
+/* Tracé progressif des TextShape (souligné / gribouillis) */
+.otc-shape path { fill: none; stroke-linecap: square; }
+.otc-shape--drawn path { animation: otc-draw 1s ease-out forwards; }
+@keyframes otc-draw { to { stroke-dashoffset: var(--otc-draw-target, 619); } }
+
+/* Variantes boutons sous-pages OTC */
+.otc-btn--blue { color: var(--color-otc-blue); font-size: 15.73px; letter-spacing: 0.05em; padding: 15px 31.5px; border-radius: 5.6px; }
+.otc-btn--blue:hover { background: var(--color-otc-blue); color: #fff; border-color: var(--color-otc-blue); }
+.otc-btn--green { color: var(--color-otc-green); font-size: 15.73px; letter-spacing: 0.05em; padding: 15px 31.5px; border-radius: 5.6px; }
+.otc-btn--green:hover { background: var(--color-otc-green); color: #000; border-color: var(--color-otc-green); }

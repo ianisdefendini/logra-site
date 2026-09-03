@@ -1,0 +1,73 @@
+/* Logra clone — scoped design tokens & base styles
+   Source: https://active-signposts-606787.framer.app/ */
+
+.logra-site {
+  /* palette (exact values from the live site) */
+  --logra-bg: #faf9f7;
+  --logra-ink: #111111;
+  --logra-navy: #001f47;
+  --logra-blue: #004bbd;
+  --logra-blue-bright: #1167ff;
+  --logra-blue-indicator: #0d3baf;
+  --logra-gray: #6b7280;
+  --logra-gray-2: #727272;
+  --logra-section-gray: #f2f4f7;
+  --logra-card-white: #ffffff;
+  --logra-card-lavender: #d3d8ed;
+  --logra-card-blue: #dbe4eb;
+  --logra-card-green: #ebf7e1;
+  --logra-card-green-2: #eef7e1;
+  --logra-card-cream: #f0ebd8;
+  --logra-card-pink: #ebd8eb;
+  --logra-card-peach: #fbe3d9;
+  --logra-footer-black: #111111;
+  --logra-pricing-gray: #f5f5f5;
+
+  /* type */
+  --font-logra-heading: var(--font-logra-poppins), "Poppins", sans-serif;
+  --font-logra-display: var(--font-logra-figtree), "Figtree", sans-serif;
+  --font-logra-body: var(--font-logra-inter), "Inter", sans-serif;
+
+  background-color: var(--logra-bg);
+  color: var(--logra-ink);
+  font-family: var(--font-logra-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+.logra-site ::selection {
+  background: rgba(0, 75, 189, 0.2);
+}
+
+/* viewport-entry appear animation (Framer style: fade + rise) */
+@keyframes logra-appear {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.logra-appear {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s cubic-bezier(0.25, 0.1, 0.25, 1),
+    transform 0.6s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.logra-appear.logra-in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* logo ticker */
+@keyframes logra-ticker {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
