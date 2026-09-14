@@ -58,7 +58,7 @@ function CheckIcon() {
 /** Old-home pricing — two wide plans (Gratuito / Pro). */
 export function OldHomePricing() {
   return (
-    <section style={{ background: "#faf9f7", padding: "100px 20px" }}>
+    <section style={{ background: "#FFFFFF", padding: "100px 20px" }}>
       <style>{`
         .oh-pricing-grid {
           display: grid;
@@ -71,16 +71,16 @@ export function OldHomePricing() {
         }
         .oh-pricing-cta-gray {
           background: rgba(0, 0, 0, 0.08);
-          color: #111;
+          color: #0A1A33;
           transition: background 0.2s ease;
         }
         .oh-pricing-cta-gray:hover { background: rgba(0, 0, 0, 0.14); }
         .oh-pricing-cta-blue {
-          background: #004bbd;
+          background: #2563EB;
           color: #fff;
           transition: background 0.2s ease;
         }
-        .oh-pricing-cta-blue:hover { background: #003da3; }
+        .oh-pricing-cta-blue:hover { background: #1D4ED8; }
       `}</style>
       <div style={{ maxWidth: 1200, margin: "0 auto" }}>
         <h2
@@ -94,10 +94,10 @@ export function OldHomePricing() {
             margin: 0,
           }}
         >
-          <span style={{ display: "block", color: "#004bbd" }}>
+          <span style={{ display: "block", color: "#2563EB" }}>
             Nuestros Planes
           </span>
-          <span style={{ display: "block", color: "#001f47" }}>
+          <span style={{ display: "block", color: "#0A1A33" }}>
             Diseñado para crecer en Equipo.
           </span>
         </h2>
@@ -107,7 +107,7 @@ export function OldHomePricing() {
             <div
               key={plan.name}
               style={{
-                background: "#fafafa",
+                background: "#F3F6FA",
                 borderRadius: 16,
                 padding: 28,
                 display: "flex",
@@ -145,7 +145,7 @@ export function OldHomePricing() {
                   fontFamily: "var(--font-logra-display), Figtree, sans-serif",
                   fontSize: 40,
                   fontWeight: 700,
-                  color: "#111",
+                  color: "#0A1A33",
                   margin: "16px 0 24px",
                 }}
               >

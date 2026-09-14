@@ -16,12 +16,12 @@ import { OldHomePricing } from "@/components/sites/active-signposts-606787-frame
 import { OldHomeComunidad } from "@/components/sites/active-signposts-606787-framer-app-4695cba6/old-home-1e2ff193/OldHomeComunidad";
 
 export const metadata: Metadata = {
-  title: "Logra - Organiza y crece tu negocio con IA",
+  title: "Alkyo - Organiza y crece tu negocio con IA",
 };
 
 export default function LograOldHomePage() {
   return (
-    <main style={{ background: "#faf9f7", overflowX: "clip" }}>
+    <main style={{ background: "#FFFFFF", overflowX: "clip" }}>
       <LograNavbar />
       <OldHomeHero />
       <LograHeroImage />
@@ -33,7 +33,7 @@ export default function LograOldHomePage() {
       <OldHomeBeneficios />
       <OldHomePricing />
       <OldHomeComunidad />
-      <footer style={{ background: "#111111" }}>
+      <footer style={{ background: "#0A1A33" }}>
         <LograFooterCta />
         <LograFooter />
       </footer>

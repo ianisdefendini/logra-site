@@ -53,7 +53,7 @@ export default function LograLogosTicker() {
   return (
     <section
       style={{
-        background: "#faf9f7",
+        background: "#FFFFFF",
         padding: "60px 0 40px",
         display: "flex",
         flexDirection: "column",
@@ -66,7 +66,7 @@ export default function LograLogosTicker() {
           fontFamily: "var(--font-logra-display), Figtree, sans-serif",
           fontSize: 20,
           fontWeight: 600,
-          color: "#111",
+          color: "#0A1A33",
           textAlign: "center",
           margin: 0,
         }}

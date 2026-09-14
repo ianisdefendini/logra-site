@@ -31,8 +31,8 @@ export function LograHero() {
       }}
     >
       <style>{`
-        .logra-hero-primary:hover { background: #003da3 !important; }
-        .logra-hero-secondary:hover { background: rgba(17,17,17,0.05) !important; }
+        .logra-hero-primary:hover { background: #1D4ED8 !important; }
+        .logra-hero-secondary:hover { background: rgba(10, 26, 51,0.05) !important; }
         @media (max-width: 767px) {
           .logra-hero-h1 { font-size: 40px !important; line-height: 48px !important; }
         }
@@ -55,7 +55,7 @@ export function LograHero() {
               gap: 6,
               padding: "6px 10px",
               borderRadius: 40,
-              border: "1px solid #e5e7eb",
+              border: "1px solid #E6EBF1",
               background: "#fff",
             }}
           >
@@ -63,7 +63,7 @@ export function LograHero() {
               width="14"
               height="14"
               viewBox="0 0 24 24"
-              fill="#004bbd"
+              fill="#2563EB"
               xmlns="http://www.w3.org/2000/svg"
               aria-hidden="true"
             >
@@ -75,7 +75,7 @@ export function LograHero() {
                 fontFamily: "var(--font-logra-body)",
                 fontSize: 14,
                 fontWeight: 500,
-                color: "#004bbd",
+                color: "#2563EB",
                 lineHeight: "20px",
               }}
             >
@@ -92,7 +92,7 @@ export function LograHero() {
               fontSize: 64,
               fontWeight: 600,
               lineHeight: "76.8px",
-              color: "#111",
+              color: "#0A1A33",
               textAlign: "center",
               maxWidth: 800,
               margin: 0,
@@ -115,7 +115,7 @@ export function LograHero() {
               margin: 0,
             }}
           >
-            Logra te ayuda a ahorrar tiempo y ser más eficiente para
+            Alkyo te ayuda a ahorrar tiempo y ser más eficiente para
             potencializar tu negocio.
           </p>
         </LograAppear>
@@ -132,7 +132,7 @@ export function LograHero() {
             <a
               href="https://app.alkyo.ai/signup"
               className="logra-hero-primary"
-              style={{ ...btnBase, background: "#004bbd", color: "#fff" }}
+              style={{ ...btnBase, background: "#2563EB", color: "#fff" }}
             >
               Probar sin costo
             </a>
@@ -142,8 +142,8 @@ export function LograHero() {
               style={{
                 ...btnBase,
                 background: "transparent",
-                border: "1px solid #111",
-                color: "#111",
+                border: "1px solid #0A1A33",
+                color: "#0A1A33",
               }}
             >
               Ver demo

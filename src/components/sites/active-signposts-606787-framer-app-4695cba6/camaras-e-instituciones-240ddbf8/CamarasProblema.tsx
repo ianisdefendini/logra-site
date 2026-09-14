@@ -7,9 +7,9 @@ function IconTile({ children }: { children: React.ReactNode }) {
         width: 52,
         height: 52,
         borderRadius: 14,
-        background: "#f2f2fe",
-        border: "1px solid #e5e5fb",
-        boxShadow: "0 2px 6px rgba(99, 102, 241, 0.12)",
+        background: "#E8F8F6",
+        border: "1px solid #CCEFEA",
+        boxShadow: "0 2px 6px rgba(20, 184, 166, 0.12)",
         display: "inline-flex",
         alignItems: "center",
         justifyContent: "center",
@@ -23,7 +23,7 @@ function IconTile({ children }: { children: React.ReactNode }) {
 
 const iconStroke = {
   fill: "none",
-  stroke: "#6366f1",
+  stroke: "#14B8A6",
   strokeWidth: 1.8,
   strokeLinecap: "round" as const,
   strokeLinejoin: "round" as const,
@@ -81,7 +81,7 @@ const ITEMS = [
 
 export function CamarasProblema() {
   return (
-    <section style={{ background: "#faf9f7", padding: "58px 20px 90px" }}>
+    <section style={{ background: "#FFFFFF", padding: "58px 20px 90px" }}>
       <style>{`
         .cam-problema-title {
           font-family: var(--font-logra-heading), Poppins, sans-serif;
@@ -89,7 +89,7 @@ export function CamarasProblema() {
           font-weight: 500;
           letter-spacing: -1.6px;
           line-height: 1.2;
-          color: #001f47;
+          color: #0A1A33;
           max-width: 900px;
           margin: 24px auto 0;
         }
@@ -111,7 +111,7 @@ export function CamarasProblema() {
               display: "inline-flex",
               alignItems: "center",
               gap: 8,
-              border: "1px solid #e2e2dd",
+              border: "1px solid #E6EBF1",
               borderRadius: 999,
               padding: "8px 16px",
               background: "#fff",
@@ -142,7 +142,7 @@ export function CamarasProblema() {
           <h2 className="cam-problema-title">
             Los programas e iniciativas de apoyo que despliegan para apoyar a
             sus MiPyMEs{" "}
-            <span style={{ color: "#1167ff" }}>tienen ciertos limitantes.</span>
+            <span style={{ color: "#2563EB" }}>tienen ciertos limitantes.</span>
           </h2>
         </LograAppear>
 
@@ -159,7 +159,7 @@ export function CamarasProblema() {
                     fontWeight: 500,
                     letterSpacing: "-1.2px",
                     lineHeight: "28.8px",
-                    color: "#001f47",
+                    color: "#0A1A33",
                     margin: "28px 0 0",
                   }}
                 >

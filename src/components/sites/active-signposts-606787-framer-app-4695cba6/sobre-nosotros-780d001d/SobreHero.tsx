@@ -34,8 +34,8 @@ export function SobreHero() {
       }}
     >
       <style>{`
-        .sobre-hero-primary:hover { background: #003da3 !important; }
-        .sobre-hero-secondary:hover { background: rgba(17,17,17,0.05) !important; }
+        .sobre-hero-primary:hover { background: #1D4ED8 !important; }
+        .sobre-hero-secondary:hover { background: rgba(10, 26, 51,0.05) !important; }
         @media (max-width: 899px) {
           .sobre-hero-h1 { font-size: 40px !important; line-height: 46px !important; letter-spacing: -2px !important; }
           .sobre-hero-img { height: 380px !important; border-radius: 20px !important; }
@@ -62,7 +62,7 @@ export function SobreHero() {
               gap: 6,
               padding: "6px 10px",
               borderRadius: 40,
-              border: "1px solid #e5e7eb",
+              border: "1px solid #E6EBF1",
               background: "#fff",
             }}
           >
@@ -72,7 +72,7 @@ export function SobreHero() {
                 width: 6,
                 height: 6,
                 borderRadius: "50%",
-                background: "#004bbd",
+                background: "#2563EB",
                 display: "inline-block",
               }}
             />
@@ -81,7 +81,7 @@ export function SobreHero() {
                 fontFamily: "var(--font-logra-body)",
                 fontSize: 14,
                 fontWeight: 500,
-                color: "#004bbd",
+                color: "#2563EB",
                 lineHeight: "20px",
               }}
             >
@@ -99,13 +99,13 @@ export function SobreHero() {
               fontWeight: 500,
               lineHeight: "79.2px",
               letterSpacing: "-3.6px",
-              color: "#171717",
+              color: "#0A1A33",
               textAlign: "center",
               maxWidth: 1000,
               margin: 0,
             }}
           >
-            En Logra, creemos en el poder de las PyMEs para transformar
+            En Alkyo, creemos en el poder de las PyMEs para transformar
             Latinoamérica
           </h1>
         </LograAppear>
@@ -142,7 +142,7 @@ export function SobreHero() {
             <a
               href="/sign-up"
               className="sobre-hero-primary"
-              style={{ ...btnBase, background: "#004bbd", color: "#fff" }}
+              style={{ ...btnBase, background: "#2563EB", color: "#fff" }}
             >
               Comenzar ahora
             </a>
@@ -152,8 +152,8 @@ export function SobreHero() {
               style={{
                 ...btnBase,
                 background: "transparent",
-                border: "1px solid #001f47",
-                color: "#001f47",
+                border: "1px solid #0A1A33",
+                color: "#0A1A33",
               }}
             >
               Ver demo

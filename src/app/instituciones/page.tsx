@@ -14,14 +14,14 @@ import { InstFooter } from "@/components/sites/active-signposts-606787-framer-ap
 export const metadata: Metadata = {
   title: "Impulsa el crecimiento de tus PyMEs y fortalece tu impacto",
   description:
-    "Logra es la plataforma más simple e inteligente para ayudar a tus clientes PyME a ser más productivos.",
+    "Alkyo es la plataforma más simple e inteligente para ayudar a tus clientes PyME a ser más productivos.",
 };
 
 export default function InstitucionesPage() {
   return (
-    <main style={{ background: "#faf9f7", overflowX: "clip" }}>
+    <main style={{ background: "#FFFFFF", overflowX: "clip" }}>
       <style>{`
-        .inst-btn-blue:hover { background: #003da3 !important; }
+        .inst-btn-blue:hover { background: #1D4ED8 !important; }
       `}</style>
       <LograNavbar />
       <InstHero />
@@ -32,7 +32,7 @@ export default function InstitucionesPage() {
       <InstOportunidad />
       <InstEcosistema />
       <InstAgendaDemo />
-      <footer style={{ background: "#111111" }}>
+      <footer style={{ background: "#0A1A33" }}>
         <InstFooterCta />
         <InstFooter />
       </footer>

@@ -7,7 +7,7 @@ const iconTrophy = (
     height="22"
     viewBox="0 0 24 24"
     fill="none"
-    stroke="#6d71e0"
+    stroke="#14B8A6"
     strokeWidth="1.8"
     strokeLinecap="round"
     strokeLinejoin="round"
@@ -27,7 +27,7 @@ const iconHandshake = (
     height="22"
     viewBox="0 0 24 24"
     fill="none"
-    stroke="#6d71e0"
+    stroke="#14B8A6"
     strokeWidth="1.8"
     strokeLinecap="round"
     strokeLinejoin="round"
@@ -48,7 +48,7 @@ const iconGlobe = (
     height="22"
     viewBox="0 0 24 24"
     fill="none"
-    stroke="#6d71e0"
+    stroke="#14B8A6"
     strokeWidth="1.8"
     strokeLinecap="round"
     strokeLinejoin="round"
@@ -145,9 +145,9 @@ export function SobreComo() {
                   width: 52,
                   height: 52,
                   borderRadius: 14,
-                  background: "#fbfbfe",
-                  border: "1px solid #e8e8f5",
-                  boxShadow: "0 2px 6px rgba(109, 113, 224, 0.12)",
+                  background: "#F3FBFA",
+                  border: "1px solid #D5F3EF",
+                  boxShadow: "0 2px 6px rgba(20, 184, 166, 0.12)",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
@@ -162,7 +162,7 @@ export function SobreComo() {
                   fontWeight: 500,
                   lineHeight: "32px",
                   letterSpacing: "-0.32px",
-                  color: "#111827",
+                  color: "#0A1A33",
                   margin: "16px 0 0",
                 }}
               >

@@ -22,7 +22,7 @@ const dots = [
 
 export function InstFooterCta() {
   return (
-    <section style={{ background: "#111111", padding: "120px 20px 60px" }}>
+    <section style={{ background: "#0A1A33", padding: "120px 20px 60px" }}>
       <style>{`
         @keyframes inst-streak-drift {
           0% { transform: rotate(45deg) translateY(0); opacity: 0.35; }
@@ -31,13 +31,13 @@ export function InstFooterCta() {
         }
         .inst-footercta-streak { animation: inst-streak-drift 6s ease-in-out infinite; }
         .inst-footercta-btn { transition: background 0.2s ease; }
-        .inst-footercta-btn:hover { background: #f0f0f0 !important; }
+        .inst-footercta-btn:hover { background: #E6EBF1 !important; }
       `}</style>
       <div
         style={{
           maxWidth: 1400,
           margin: "0 auto",
-          background: "#1167ff",
+          background: "#2563EB",
           borderRadius: 24,
           padding: "96px 40px",
           textAlign: "center",
@@ -89,7 +89,7 @@ export function InstFooterCta() {
             fontWeight: 500,
             letterSpacing: "-1.6px",
             lineHeight: "38.4px",
-            color: "#f0f4f7",
+            color: "#E6EBF1",
             maxWidth: 640,
             margin: "0 auto",
             position: "relative",
@@ -120,7 +120,7 @@ export function InstFooterCta() {
             display: "inline-block",
             marginTop: 40,
             background: "#fff",
-            color: "#111",
+            color: "#0A1A33",
             fontFamily: "var(--font-logra-body), Inter, sans-serif",
             fontSize: 16,
             fontWeight: 500,

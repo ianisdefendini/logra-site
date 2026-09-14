@@ -10,10 +10,10 @@ export const metadata: Metadata = {
 
 export default function LograTerminosYCondicionesPage() {
   return (
-    <main style={{ background: "#faf9f7", overflowX: "clip" }}>
+    <main style={{ background: "#FFFFFF", overflowX: "clip" }}>
       <LograNavbar />
       <LegalTerminos />
-      <footer style={{ background: "#111111" }}>
+      <footer style={{ background: "#0A1A33" }}>
         <LograFooterCta />
         <LograFooter />
       </footer>

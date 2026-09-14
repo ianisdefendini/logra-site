@@ -38,7 +38,7 @@ function BadgeIcon() {
       height="14"
       viewBox="0 0 24 24"
       fill="none"
-      stroke="#004bbd"
+      stroke="#2563EB"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -54,7 +54,7 @@ function BadgeIcon() {
 
 export default function LograOportunidad() {
   return (
-    <section style={{ background: "#faf9f7", padding: "100px 20px 120px" }}>
+    <section style={{ background: "#FFFFFF", padding: "100px 20px 120px" }}>
       <style>{`
         .logra-oportunidad-grid {
           display: grid;
@@ -77,7 +77,7 @@ export default function LograOportunidad() {
               display: "inline-flex",
               alignItems: "center",
               gap: 6,
-              border: "1px solid #e5e7eb",
+              border: "1px solid #E6EBF1",
               background: "#fff",
               borderRadius: 40,
               padding: "6px 12px",
@@ -89,7 +89,7 @@ export default function LograOportunidad() {
                 fontFamily: "var(--font-logra-body), Inter, sans-serif",
                 fontSize: 14,
                 fontWeight: 500,
-                color: "#001f47",
+                color: "#0A1A33",
               }}
             >
               Oportunidad
@@ -102,12 +102,12 @@ export default function LograOportunidad() {
               fontSize: 32,
               fontWeight: 500,
               letterSpacing: "-1.6px",
-              color: "#001f47",
+              color: "#0A1A33",
               maxWidth: 560,
               margin: "24px 0 0",
             }}
           >
-            4000+ empresarios ya usan Logra para mejorar cada día
+            4000+ empresarios ya usan Alkyo para mejorar cada día
           </h2>
 
           <p
@@ -134,11 +134,11 @@ export default function LograOportunidad() {
               href="#"
               style={{
                 display: "inline-block",
-                border: "1px solid #111",
+                border: "1px solid #0A1A33",
                 borderRadius: 12,
                 padding: "14px 20px",
                 background: "transparent",
-                color: "#111",
+                color: "#0A1A33",
                 fontFamily: "var(--font-logra-body), Inter, sans-serif",
                 fontSize: 16,
                 fontWeight: 500,
@@ -151,7 +151,7 @@ export default function LograOportunidad() {
               href="https://app.alkyo.ai/signup"
               style={{
                 display: "inline-block",
-                background: "#004bbd",
+                background: "#2563EB",
                 color: "#fff",
                 borderRadius: 12,
                 padding: "14px 20px",
@@ -169,7 +169,7 @@ export default function LograOportunidad() {
         <div
           className="logra-oportunidad-collage"
           style={{
-            background: "#dbe4eb",
+            background: "#F3F6FA",
             borderRadius: 16,
             position: "relative",
             overflow: "hidden",

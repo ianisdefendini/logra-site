@@ -11,7 +11,7 @@ export function CamarasHero() {
   return (
     <section
       style={{
-        background: "#faf9f7",
+        background: "#FFFFFF",
         paddingTop: 82,
         overflow: "hidden",
       }}
@@ -23,7 +23,7 @@ export function CamarasHero() {
           font-weight: 500;
           letter-spacing: -3.6px;
           line-height: 1.1;
-          color: #171717;
+          color: #0A1A33;
           margin: 0 auto;
           max-width: 1000px;
         }
@@ -73,14 +73,14 @@ export function CamarasHero() {
               display: "inline-flex",
               alignItems: "center",
               gap: 8,
-              border: "1px solid rgba(0, 75, 189, 0.25)",
+              border: "1px solid rgba(37, 99, 235, 0.25)",
               borderRadius: 999,
               padding: "8px 16px",
               background: "#fff",
               fontFamily: "var(--font-logra-body), Inter, sans-serif",
               fontSize: 15,
               fontWeight: 500,
-              color: "#004bbd",
+              color: "#2563EB",
             }}
           >
             <span
@@ -89,7 +89,7 @@ export function CamarasHero() {
                 width: 6,
                 height: 6,
                 borderRadius: "50%",
-                background: "#004bbd",
+                background: "#2563EB",
                 display: "inline-block",
               }}
             />
@@ -105,7 +105,7 @@ export function CamarasHero() {
 
         <LograAppear delay={0.2}>
           <p className="cam-hero-sub">
-            Logra es una solución llave en mano que impulsa a tus afiliados y
+            Alkyo es una solución llave en mano que impulsa a tus afiliados y
             te da acceso a datos increíbles para entenderlos mejor.
           </p>
         </LograAppear>
@@ -117,7 +117,7 @@ export function CamarasHero() {
             style={{
               display: "inline-block",
               marginTop: 40,
-              background: "#004bbd",
+              background: "#2563EB",
               color: "#fff",
               fontFamily: "var(--font-logra-body), Inter, sans-serif",
               fontSize: 16,

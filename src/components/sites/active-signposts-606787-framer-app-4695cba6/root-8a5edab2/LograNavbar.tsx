@@ -2,12 +2,13 @@
 
 import { useState, type CSSProperties } from "react";
 import { LograLangSwitcher } from "./LograLangSwitcher";
+import { AlkyoLogo } from "./AlkyoLogo";
 
 const linkStyle: CSSProperties = {
   fontFamily: "var(--font-logra-body)",
   fontSize: 16,
   fontWeight: 400,
-  color: "#111",
+  color: "#0A1A33",
   textDecoration: "none",
   transition: "opacity 0.2s",
 };
@@ -46,7 +47,7 @@ export function LograNavbar() {
         right: 0,
         zIndex: 10,
         height: 82,
-        background: "#faf9f7",
+        background: "#FFFFFF",
         backdropFilter: "blur(12px)",
         WebkitBackdropFilter: "blur(12px)",
         display: "flex",
@@ -55,8 +56,8 @@ export function LograNavbar() {
     >
       <style>{`
         .logra-nav-link:hover { opacity: 0.65; }
-        .logra-nav-login:hover { background: rgba(17,17,17,0.05) !important; }
-        .logra-nav-signup:hover { background: #003da3 !important; }
+        .logra-nav-login:hover { background: rgba(10, 26, 51,0.05) !important; }
+        .logra-nav-signup:hover { background: #1D4ED8 !important; }
         .logra-nav-desktop { display: flex; }
         .logra-nav-burger { display: none; }
         @media (max-width: 767px) {
@@ -77,17 +78,10 @@ export function LograNavbar() {
       >
         <a
           href="/"
-          style={{
-            fontFamily: "var(--font-logra-display)",
-            fontWeight: 700,
-            fontSize: 26,
-            letterSpacing: "-0.5px",
-            color: "#111",
-            textDecoration: "none",
-            lineHeight: 1,
-          }}
+          aria-label="Alkyo"
+          style={{ display: "inline-flex", textDecoration: "none" }}
         >
-          Logra
+          <AlkyoLogo size={30} />
         </a>
 
         {/* center links (desktop) */}
@@ -113,8 +107,8 @@ export function LograNavbar() {
             className="logra-nav-login"
             style={{
               ...btnBase,
-              border: "1px solid #111",
-              color: "#111",
+              border: "1px solid #0A1A33",
+              color: "#0A1A33",
               background: "transparent",
             }}
           >
@@ -123,7 +117,7 @@ export function LograNavbar() {
           <a
             href="https://app.alkyo.ai/signup"
             className="logra-nav-signup"
-            style={{ ...btnBase, background: "#004bbd", color: "#fff" }}
+            style={{ ...btnBase, background: "#2563EB", color: "#fff" }}
           >
             Crear Cuenta
           </a>
@@ -149,9 +143,9 @@ export function LograNavbar() {
             padding: 0,
           }}
         >
-          <span style={{ display: "block", width: 24, height: 2, background: "#111" }} />
-          <span style={{ display: "block", width: 24, height: 2, background: "#111" }} />
-          <span style={{ display: "block", width: 24, height: 2, background: "#111" }} />
+          <span style={{ display: "block", width: 24, height: 2, background: "#0A1A33" }} />
+          <span style={{ display: "block", width: 24, height: 2, background: "#0A1A33" }} />
+          <span style={{ display: "block", width: 24, height: 2, background: "#0A1A33" }} />
         </button>
       </div>
 
@@ -163,7 +157,7 @@ export function LograNavbar() {
             top: 82,
             left: 0,
             right: 0,
-            background: "#faf9f7",
+            background: "#FFFFFF",
             display: "flex",
             flexDirection: "column",
             paddingBottom: 20,
@@ -197,8 +191,8 @@ export function LograNavbar() {
               className="logra-nav-login"
               style={{
                 ...btnBase,
-                border: "1px solid #111",
-                color: "#111",
+                border: "1px solid #0A1A33",
+                color: "#0A1A33",
                 background: "transparent",
                 width: "100%",
               }}
@@ -210,7 +204,7 @@ export function LograNavbar() {
               className="logra-nav-signup"
               style={{
                 ...btnBase,
-                background: "#004bbd",
+                background: "#2563EB",
                 color: "#fff",
                 width: "100%",
               }}

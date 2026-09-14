@@ -39,7 +39,7 @@ function GlobeIcon() {
       height="14"
       viewBox="0 0 24 24"
       fill="none"
-      stroke="#004bbd"
+      stroke="#2563EB"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -56,7 +56,7 @@ function GlobeIcon() {
 /** Old-home "La Comunidad" section — CTA text + avatar collage. */
 export function OldHomeComunidad() {
   return (
-    <section style={{ background: "#faf9f7", padding: "100px 20px 120px" }}>
+    <section style={{ background: "#FFFFFF", padding: "100px 20px 120px" }}>
       <style>{`
         .oh-comunidad-grid {
           display: grid;
@@ -79,7 +79,7 @@ export function OldHomeComunidad() {
               display: "inline-flex",
               alignItems: "center",
               gap: 6,
-              border: "1px solid #e5e7eb",
+              border: "1px solid #E6EBF1",
               background: "#fff",
               borderRadius: 40,
               padding: "6px 12px",
@@ -91,7 +91,7 @@ export function OldHomeComunidad() {
                 fontFamily: "var(--font-logra-body), Inter, sans-serif",
                 fontSize: 14,
                 fontWeight: 500,
-                color: "#001f47",
+                color: "#0A1A33",
               }}
             >
               La Comunidad
@@ -105,7 +105,7 @@ export function OldHomeComunidad() {
               fontWeight: 500,
               letterSpacing: "-1.6px",
               lineHeight: "38.4px",
-              color: "#001f47",
+              color: "#0A1A33",
               maxWidth: 560,
               margin: "24px 0 0",
             }}
@@ -141,11 +141,11 @@ export function OldHomeComunidad() {
               href="#"
               style={{
                 display: "inline-block",
-                border: "1px solid #111",
+                border: "1px solid #0A1A33",
                 borderRadius: 12,
                 padding: "14px 20px",
                 background: "transparent",
-                color: "#111",
+                color: "#0A1A33",
                 fontFamily: "var(--font-logra-body), Inter, sans-serif",
                 fontSize: 16,
                 fontWeight: 500,
@@ -158,7 +158,7 @@ export function OldHomeComunidad() {
               href="/sign-up"
               style={{
                 display: "inline-block",
-                background: "#004bbd",
+                background: "#2563EB",
                 color: "#fff",
                 borderRadius: 12,
                 padding: "14px 20px",
@@ -176,7 +176,7 @@ export function OldHomeComunidad() {
         <div
           className="oh-comunidad-collage"
           style={{
-            background: "#dbe4eb",
+            background: "#F3F6FA",
             borderRadius: 16,
             position: "relative",
             overflow: "hidden",

@@ -27,7 +27,7 @@ const avatars = [
 
 export default function LograSignUpHero() {
   return (
-    <section style={{ background: "#faf9f7", paddingTop: 82 }}>
+    <section style={{ background: "#FFFFFF", paddingTop: 82 }}>
       <style>{`
         .logra-signup-hero {
           display: flex;
@@ -55,7 +55,7 @@ export default function LograSignUpHero() {
           font-weight: 500;
           letter-spacing: -2.4px;
           line-height: 1.1;
-          color: #001f47;
+          color: #0A1A33;
           margin: 0;
           max-width: 420px;
         }
@@ -84,7 +84,7 @@ export default function LograSignUpHero() {
           display: inline-flex;
           align-items: center;
           justify-content: center;
-          background: #004bbd;
+          background: #2563EB;
           color: #fff;
           font-family: var(--font-logra-body), Inter, sans-serif;
           font-size: 16px;
@@ -96,7 +96,7 @@ export default function LograSignUpHero() {
           white-space: nowrap;
           transition: background 0.2s ease;
         }
-        .logra-signup-btn:hover { background: #003da3; }
+        .logra-signup-btn:hover { background: #1D4ED8; }
         .logra-signup-avatars {
           display: flex;
           align-items: center;
@@ -107,7 +107,7 @@ export default function LograSignUpHero() {
           width: 44px;
           height: 44px;
           border-radius: 50%;
-          border: 3px solid #111;
+          border: 3px solid #0A1A33;
           box-sizing: content-box;
           object-fit: cover;
           display: block;
@@ -120,7 +120,7 @@ export default function LograSignUpHero() {
           width: 44px;
           height: 44px;
           border-radius: 50%;
-          border: 3px solid #111;
+          border: 3px solid #0A1A33;
           box-sizing: content-box;
           background: #272b2d;
           color: #fff;

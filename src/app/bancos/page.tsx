@@ -14,15 +14,15 @@ import { BancosFooter } from "@/components/sites/active-signposts-606787-framer-
 export const metadata: Metadata = {
   title: "Reduce el riesgo y aumenta la rentabilidad de tu cartera PyME",
   description:
-    "Logra es la plataforma más simple e inteligente para ayudar a tus clientes PyME a mejorar su perfil financiero.",
+    "Alkyo es la plataforma más simple e inteligente para ayudar a tus clientes PyME a mejorar su perfil financiero.",
 };
 
 export default function BancosPage() {
   return (
-    <main style={{ background: "#faf9f7", overflowX: "clip" }}>
+    <main style={{ background: "#FFFFFF", overflowX: "clip" }}>
       <style>{`
-        .bancos-btn-blue:hover { background: #003da3 !important; }
-        .bancos-btn-outline:hover { background: rgba(0, 31, 71, 0.06) !important; }
+        .bancos-btn-blue:hover { background: #1D4ED8 !important; }
+        .bancos-btn-outline:hover { background: rgba(10, 26, 51, 0.06) !important; }
       `}</style>
       <LograNavbar />
       <BancosHero />
@@ -33,7 +33,7 @@ export default function BancosPage() {
       <BancosOportunidad />
       <BancosEcosistema />
       <BancosAgendaDemo />
-      <footer style={{ background: "#111111" }}>
+      <footer style={{ background: "#0A1A33" }}>
         <BancosFooterCta />
         <BancosFooter />
       </footer>

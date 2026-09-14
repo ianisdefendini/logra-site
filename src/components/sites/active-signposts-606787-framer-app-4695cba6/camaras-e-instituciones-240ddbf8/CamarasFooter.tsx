@@ -1,3 +1,4 @@
+import { AlkyoLogo } from "../root-8a5edab2/AlkyoLogo";
 function LinkedInIcon() {
   return (
     <svg width="18" height="18" viewBox="0 0 24 24" fill="#fff" aria-hidden="true">
@@ -39,7 +40,7 @@ const navLinks = [
 
 export function CamarasFooter() {
   return (
-    <footer style={{ background: "#111111", padding: "40px 20px 60px" }}>
+    <footer style={{ background: "#0A1A33", padding: "40px 20px 60px" }}>
       <style>{`
         .cam-footer-top {
           display: flex;
@@ -74,19 +75,7 @@ export function CamarasFooter() {
       <div style={{ maxWidth: 1400, margin: "0 auto" }}>
         <div className="cam-footer-top">
           <div>
-            <span
-              style={{
-                fontFamily: "var(--font-logra-display)",
-                fontSize: 26,
-                fontWeight: 700,
-                letterSpacing: "-0.5px",
-                color: "#fff",
-                lineHeight: "28px",
-                display: "block",
-              }}
-            >
-              Logra
-            </span>
+            <AlkyoLogo size={30} tone="light" tagline />
             <div style={{ display: "flex", gap: 12, marginTop: 48 }}>
               {socialLinks.map((social) => (
                 <a
@@ -121,7 +110,7 @@ export function CamarasFooter() {
                   fontFamily: "var(--font-logra-body), Inter, sans-serif",
                   fontSize: 16,
                   fontWeight: 400,
-                  color: "#f0f4f7",
+                  color: "#E6EBF1",
                   textDecoration: link.underline ? "underline" : "none",
                 }}
               >

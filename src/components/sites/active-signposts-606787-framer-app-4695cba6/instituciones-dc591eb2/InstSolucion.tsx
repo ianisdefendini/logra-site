@@ -5,7 +5,7 @@ const CALENDLY_DEMO =
 
 export function InstSolucion() {
   return (
-    <section style={{ background: "#faf9f7", padding: "128px 20px 60px" }}>
+    <section style={{ background: "#FFFFFF", padding: "128px 20px 60px" }}>
       <style>{`
         .inst-solucion-title {
           font-family: var(--font-logra-heading), Poppins, sans-serif;
@@ -13,7 +13,7 @@ export function InstSolucion() {
           font-weight: 500;
           letter-spacing: -2.4px;
           line-height: 1.1;
-          color: #001f47;
+          color: #0A1A33;
           max-width: 900px;
           margin: 24px auto 0;
         }
@@ -38,14 +38,14 @@ export function InstSolucion() {
               display: "inline-flex",
               alignItems: "center",
               gap: 8,
-              border: "1px solid rgba(0, 75, 189, 0.25)",
+              border: "1px solid rgba(37, 99, 235, 0.25)",
               borderRadius: 999,
               padding: "8px 16px",
               background: "#fff",
               fontFamily: "var(--font-logra-body), Inter, sans-serif",
               fontSize: 15,
               fontWeight: 500,
-              color: "#004bbd",
+              color: "#2563EB",
             }}
           >
             <span
@@ -54,7 +54,7 @@ export function InstSolucion() {
                 width: 6,
                 height: 6,
                 borderRadius: "50%",
-                background: "#004bbd",
+                background: "#2563EB",
                 display: "inline-block",
               }}
             />
@@ -64,7 +64,7 @@ export function InstSolucion() {
 
         <LograAppear delay={0.1}>
           <h2 className="inst-solucion-title">
-            Logra es la plataforma más simple para fortalecer tus PyMEs con IA
+            Alkyo es la plataforma más simple para fortalecer tus PyMEs con IA
             y optimizar tu impacto económico.
           </h2>
         </LograAppear>
@@ -84,7 +84,7 @@ export function InstSolucion() {
             style={{
               display: "inline-block",
               marginTop: 40,
-              background: "#004bbd",
+              background: "#2563EB",
               color: "#fff",
               fontFamily: "var(--font-logra-body), Inter, sans-serif",
               fontSize: 16,

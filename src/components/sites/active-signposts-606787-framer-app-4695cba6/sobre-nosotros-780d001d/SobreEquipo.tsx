@@ -60,7 +60,7 @@ const photos: Photo[] = [
   },
   {
     src: `${IMG_BASE}/qH9TQTc79xE7MnkMcjanVtDatI.png`,
-    alt: "Equipo Logra en un evento",
+    alt: "Equipo Alkyo en un evento",
     left: 313,
     top: 650,
     w: 195,
@@ -175,7 +175,7 @@ export function SobreEquipo() {
         fontWeight: 500,
         lineHeight: "52.8px",
         letterSpacing: "-2.4px",
-        color: "#001f47",
+        color: "#0A1A33",
         textAlign: "center",
         margin: 0,
       }}

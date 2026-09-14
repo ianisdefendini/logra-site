@@ -92,7 +92,7 @@ const TABS: TabDef[] = [
     text: "Ejecuta tus tareas repetitivas en segundos. Te crea planes de acción y procesos para avanzar más rápido.",
     Icon: NodesIcon,
     image: COMPOSITE_TAB0,
-    alt: "Emprendedora mejorando su estrategia con Logra",
+    alt: "Emprendedora mejorando su estrategia con Alkyo",
   },
   {
     label: "Enfócate en lo importante",
@@ -100,7 +100,7 @@ const TABS: TabDef[] = [
     text: "Liberando tiempo puedes dedicar tu energía y foco en las tareas que más aporten valor al negocio.",
     Icon: ChevronsIcon,
     image: COMPOSITE_TAB1,
-    alt: "Emprendedora enfocada en lo importante con Logra",
+    alt: "Emprendedora enfocada en lo importante con Alkyo",
   },
   {
     label: "Decides con más seguridad",
@@ -125,14 +125,14 @@ const MOBILE_BLOCKS: {
     text: "Con IA puedes organizar la estrategia y las metas de cada área clave de tu negocio, para alinear a tu equipo y enfocarlo en lo que realmente importa: resultados.",
     Icon: NodesIcon,
     image: COMPOSITE_TAB0,
-    alt: "Emprendedora mejorando su estrategia con Logra",
+    alt: "Emprendedora mejorando su estrategia con Alkyo",
   },
   {
     heading: "Menos estrés, más impacto",
     text: "La IA te puede proponer soluciones, construir planes de acción y ejecutar tareas por ti. Porque tu tiempo, y el de tu equipo, vale más que estar apagando incendios todo el día.",
     Icon: ChevronsIcon,
     image: COMPOSITE_TAB1,
-    alt: "Emprendedora enfocada en lo importante con Logra",
+    alt: "Emprendedora enfocada en lo importante con Alkyo",
   },
   {
     heading: "Decide con Datos, no con corazonadas",
@@ -151,7 +151,7 @@ export function OldHomeBeneficios() {
   const TabIcon = tab.Icon;
 
   return (
-    <section style={{ background: "#f5f4f2", padding: "100px 0" }}>
+    <section style={{ background: "#F3F6FA", padding: "100px 0" }}>
       <style>{`
         @keyframes ohBenefFadeIn {
           from { opacity: 0; }
@@ -168,18 +168,18 @@ export function OldHomeBeneficios() {
           gap: 12px;
           padding-bottom: 18px;
           border: none;
-          border-bottom: 1px solid #d1d5db;
+          border-bottom: 1px solid #E6EBF1;
           background: none;
           cursor: pointer;
           transition: color 0.25s, border-color 0.25s;
           font-family: var(--font-logra-body), Inter, sans-serif;
           font-size: 18px;
           font-weight: 500;
-          color: #001f47;
+          color: #0A1A33;
         }
         .oh-benef-tab[data-active="true"] {
-          border-bottom: 2px solid #0d3baf;
-          color: #0d3baf;
+          border-bottom: 2px solid #2563EB;
+          color: #2563EB;
         }
         .oh-benef-content {
           margin-top: 64px;
@@ -228,14 +228,14 @@ export function OldHomeBeneficios() {
               display: "inline-flex",
               alignItems: "center",
               gap: 6,
-              border: "1px solid #e5e7eb",
+              border: "1px solid #E6EBF1",
               background: "#fff",
               borderRadius: 40,
               padding: "6px 12px",
               fontFamily: "var(--font-logra-body), Inter, sans-serif",
               fontSize: 14,
               fontWeight: 500,
-              color: "#004bbd",
+              color: "#2563EB",
             }}
           >
             <span style={{ fontSize: 16, lineHeight: 1 }}>•</span>
@@ -254,12 +254,12 @@ export function OldHomeBeneficios() {
             fontWeight: 500,
             letterSpacing: "-1.6px",
             lineHeight: "38.4px",
-            color: "#001f47",
+            color: "#0A1A33",
           }}
         >
           Los que adoptan inteligencia artificial crecen. Los que no,
           desaparecen.{" "}
-          <span style={{ color: "#004bbd" }}>¿De qué lado estarás?</span>
+          <span style={{ color: "#2563EB" }}>¿De qué lado estarás?</span>
         </h2>
 
         {/* ---------- Desktop: tabs ---------- */}
@@ -308,10 +308,10 @@ export function OldHomeBeneficios() {
                   fontSize: 24,
                   fontWeight: 500,
                   letterSpacing: "-1.2px",
-                  color: "#001f47",
+                  color: "#0A1A33",
                 }}
               >
-                <span style={{ color: "#0d3baf", display: "inline-flex" }}>
+                <span style={{ color: "#2563EB", display: "inline-flex" }}>
                   <TabIcon size={22} />
                 </span>
                 {tab.heading}
@@ -364,12 +364,12 @@ export function OldHomeBeneficios() {
                     fontSize: 24,
                     fontWeight: 500,
                     letterSpacing: "-1.2px",
-                    color: "#001f47",
+                    color: "#0A1A33",
                   }}
                 >
                   <span
                     style={{
-                      color: "#0d3baf",
+                      color: "#2563EB",
                       display: "inline-flex",
                       marginTop: 3,
                       flexShrink: 0,

@@ -51,7 +51,7 @@ export function SobreProblema() {
             fontWeight: 400,
             lineHeight: "30px",
             letterSpacing: "-0.24px",
-            color: "#111827",
+            color: "#0A1A33",
             textAlign: "center",
             maxWidth: 860,
             margin: 0,
@@ -82,7 +82,7 @@ export function SobreProblema() {
                   fontWeight: 500,
                   lineHeight: "28.8px",
                   letterSpacing: "-1.2px",
-                  color: "#001f47",
+                  color: "#0A1A33",
                   margin: 0,
                 }}
               >

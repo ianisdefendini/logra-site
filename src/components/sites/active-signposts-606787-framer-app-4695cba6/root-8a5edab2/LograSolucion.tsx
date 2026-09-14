@@ -14,7 +14,7 @@ const features = [
         height="24"
         viewBox="0 0 24 24"
         fill="none"
-        stroke="#004bbd"
+        stroke="#2563EB"
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -38,7 +38,7 @@ const features = [
         height="24"
         viewBox="0 0 24 24"
         fill="none"
-        stroke="#004bbd"
+        stroke="#2563EB"
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -62,7 +62,7 @@ const features = [
         height="24"
         viewBox="0 0 24 24"
         fill="none"
-        stroke="#004bbd"
+        stroke="#2563EB"
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -86,7 +86,7 @@ const features = [
         height="24"
         viewBox="0 0 24 24"
         fill="none"
-        stroke="#004bbd"
+        stroke="#2563EB"
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -125,7 +125,7 @@ export function LograSolucion() {
           font-weight: 500;
           line-height: 38.4px;
           letter-spacing: -1.6px;
-          color: #001f47;
+          color: #0A1A33;
           max-width: 1120px;
           margin: 0;
         }
@@ -175,7 +175,7 @@ export function LograSolucion() {
             margin: 0,
           }}
         >
-          ¿Cómo Logra te da más control, más enfoque y más eficiencia en tu día
+          ¿Cómo Alkyo te da más control, más enfoque y más eficiencia en tu día
           a día?
         </p>
       </LograAppear>
@@ -205,7 +205,7 @@ export function LograSolucion() {
                   fontFamily: "var(--font-logra-heading), Poppins, sans-serif",
                   fontSize: 20,
                   fontWeight: 600,
-                  color: "#001f47",
+                  color: "#0A1A33",
                   margin: 0,
                 }}
               >

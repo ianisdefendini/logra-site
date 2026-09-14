@@ -2,7 +2,7 @@ import { LograAppear } from "../root-8a5edab2/LograAppear";
 
 const iconStroke = {
   fill: "none",
-  stroke: "#6366f1",
+  stroke: "#14B8A6",
   strokeWidth: 1.8,
   strokeLinecap: "round" as const,
   strokeLinejoin: "round" as const,
@@ -57,7 +57,7 @@ const CARDS = [
 
 export function BancosOportunidad() {
   return (
-    <section style={{ background: "#faf9f7", padding: "64px 20px 60px" }}>
+    <section style={{ background: "#FFFFFF", padding: "64px 20px 60px" }}>
       <style>{`
         .bancos-oport-title {
           font-family: var(--font-logra-heading), Poppins, sans-serif;
@@ -77,7 +77,7 @@ export function BancosOportunidad() {
         }
         .bancos-oport-card {
           background: #fff;
-          border: 1px solid #e5e7eb;
+          border: 1px solid #E6EBF1;
           border-radius: 20px;
           padding: 40px 32px 44px;
           text-align: center;
@@ -94,14 +94,14 @@ export function BancosOportunidad() {
               display: "inline-flex",
               alignItems: "center",
               gap: 8,
-              border: "1px solid rgba(0, 75, 189, 0.25)",
+              border: "1px solid rgba(37, 99, 235, 0.25)",
               borderRadius: 999,
               padding: "8px 16px",
               background: "#fff",
               fontFamily: "var(--font-logra-body), Inter, sans-serif",
               fontSize: 15,
               fontWeight: 500,
-              color: "#004bbd",
+              color: "#2563EB",
             }}
           >
             <span
@@ -110,7 +110,7 @@ export function BancosOportunidad() {
                 width: 6,
                 height: 6,
                 borderRadius: "50%",
-                background: "#004bbd",
+                background: "#2563EB",
                 display: "inline-block",
               }}
             />
@@ -122,7 +122,7 @@ export function BancosOportunidad() {
           <h2 className="bancos-oport-title">
             Las PyMEs que adoptan inteligencia artificial sobreviven más y
             pagan mejor.{" "}
-            <span style={{ color: "#1167ff" }}>Aprovecha eso para ti.</span>
+            <span style={{ color: "#2563EB" }}>Aprovecha eso para ti.</span>
           </h2>
         </LograAppear>
 
@@ -135,9 +135,9 @@ export function BancosOportunidad() {
                     width: 52,
                     height: 52,
                     borderRadius: 14,
-                    background: "#f2f2fe",
-                    border: "1px solid #e5e5fb",
-                    boxShadow: "0 2px 6px rgba(99, 102, 241, 0.12)",
+                    background: "#E8F8F6",
+                    border: "1px solid #CCEFEA",
+                    boxShadow: "0 2px 6px rgba(20, 184, 166, 0.12)",
                     display: "inline-flex",
                     alignItems: "center",
                     justifyContent: "center",
@@ -154,7 +154,7 @@ export function BancosOportunidad() {
                     fontWeight: 500,
                     letterSpacing: "-0.32px",
                     lineHeight: 1.15,
-                    color: "#111827",
+                    color: "#0A1A33",
                     margin: "28px 0 0",
                   }}
                 >

@@ -28,12 +28,12 @@ const AVATARS = [
 
 export function InstEcosistema() {
   return (
-    <section style={{ background: "#faf9f7", padding: "60px 20px 0" }}>
+    <section style={{ background: "#FFFFFF", padding: "60px 20px 0" }}>
       <style>{`
         .inst-eco-card {
           max-width: 1400px;
           margin: 0 auto;
-          background: #004bbd;
+          background: #2563EB;
           border-radius: 24px;
           padding: 32px 40px 72px;
           text-align: center;
@@ -66,7 +66,7 @@ export function InstEcosistema() {
           margin: 28px auto 0;
         }
         .inst-eco-btn { transition: background 0.2s ease; }
-        .inst-eco-btn:hover { background: #f0f0f0 !important; }
+        .inst-eco-btn:hover { background: #E6EBF1 !important; }
         @media (max-width: 899px) {
           .inst-eco-card { padding: 24px 24px 56px; }
           .inst-eco-ring { width: 340px; height: 560px; }
@@ -105,7 +105,7 @@ export function InstEcosistema() {
         <LograAppear delay={0.15}>
           <p className="inst-eco-text">
             Convierte tu red de PyMEs en un ecosistema de colaboración y
-            expansión. Con Logra, las empresas pueden generar nuevas
+            expansión. Con Alkyo, las empresas pueden generar nuevas
             oportunidades para potenciar su crecimiento. Más PyMEs creciendo,
             mayor impacto económico.
           </p>
@@ -119,7 +119,7 @@ export function InstEcosistema() {
               display: "inline-block",
               marginTop: 44,
               background: "#fff",
-              color: "#111",
+              color: "#0A1A33",
               fontFamily: "var(--font-logra-body), Inter, sans-serif",
               fontSize: 16,
               fontWeight: 500,

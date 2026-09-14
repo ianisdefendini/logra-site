@@ -7,26 +7,26 @@ const cards = [
   {
     badge: "Plataforma PyMES",
     heading:
-      "¿Tienes una PyME? Descubre cómo puedes hacer crecer tu negocio con Logra, sin saber nada de tecnología.",
+      "¿Tienes una PyME? Descubre cómo puedes hacer crecer tu negocio con Alkyo, sin saber nada de tecnología.",
     img: `${IMG_BASE}/dEQT06SKy6Qwq4Vom6VnEZVg.png`,
-    imgAlt: "Taller virtual de Logra con PyMEs",
-    cta: "Descubre Logra para PyMES",
+    imgAlt: "Taller virtual de Alkyo con PyMEs",
+    cta: "Descubre Alkyo para PyMES",
     href: "/",
   },
   {
     badge: "Programa instituciones",
     heading:
-      "¿Eres parte de una institución? Explora como Logra te ayuda a impulsar el crecimiento de tu red de PyMEs, con IA.",
+      "¿Eres parte de una institución? Explora como Alkyo te ayuda a impulsar el crecimiento de tu red de PyMEs, con IA.",
     img: `${IMG_BASE}/JF6bLSXgpdk2WqKbrOcK0pcF79c.png`,
     imgAlt: "Programa MiPyme + Crecimiento con Colsubsidio",
-    cta: "Explora Logra para instituciones",
+    cta: "Explora Alkyo para instituciones",
     href: "/camaras-e-instituciones",
   },
 ];
 
 export function SobreCta() {
   return (
-    <section style={{ background: "#edf7ff", padding: "100px 20px 110px" }}>
+    <section style={{ background: "#F3F6FA", padding: "100px 20px 110px" }}>
       <style>{`
         .sobre-cta-grid {
           display: grid;
@@ -35,7 +35,7 @@ export function SobreCta() {
           max-width: 1440px;
           margin: 60px auto 0;
         }
-        .sobre-cta-btn:hover { background: #f0f4f7 !important; }
+        .sobre-cta-btn:hover { background: #E6EBF1 !important; }
         @media (max-width: 899px) {
           .sobre-cta-grid { grid-template-columns: 1fr; gap: 28px; margin-top: 48px; }
           .sobre-cta-h2 { font-size: 26px !important; line-height: 34px !important; }
@@ -53,10 +53,10 @@ export function SobreCta() {
             lineHeight: "38.4px",
             textAlign: "center",
             margin: 0,
-            color: "#004bbd",
+            color: "#2563EB",
           }}
         >
-          <span style={{ color: "#111827" }}>¿Convencido?</span>
+          <span style={{ color: "#0A1A33" }}>¿Convencido?</span>
           <br />
           Súmate para transformar la región a través de sus PyMEs.
         </h2>
@@ -67,7 +67,7 @@ export function SobreCta() {
           <LograAppear key={card.badge} delay={i * 0.1}>
             <div
               style={{
-                background: "#004bbd",
+                background: "#2563EB",
                 borderRadius: 24,
                 padding: "40px 32px",
                 display: "flex",
@@ -150,7 +150,7 @@ export function SobreCta() {
                   padding: "16px 24px",
                   borderRadius: 12,
                   background: "#ffffff",
-                  color: "#111111",
+                  color: "#0A1A33",
                   fontFamily: "var(--font-logra-body)",
                   fontSize: 16,
                   fontWeight: 500,

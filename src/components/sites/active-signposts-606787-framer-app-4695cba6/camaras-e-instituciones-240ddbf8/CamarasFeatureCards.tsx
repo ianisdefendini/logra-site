@@ -18,8 +18,8 @@ const CARDS: FeatureCard[] = [
     title: "Talleres virtuales de capacitación",
     text: "Son sesiones de 60 minutos que llevamos cada semana para guiar a las PyMEs a empezar a utilizar la inteligencia artificial para organizar sus tareas, ejecutarlas en segundos y medir el tiempo ahorrado.",
     img: `${IMG_BASE}/WXLaOZzuY9oIZWEZBmdhdhaZOO8.png`,
-    imgAlt: "Taller virtual de capacitación en Zoom con la plataforma Logra",
-    bg: "#f0ebd8",
+    imgAlt: "Taller virtual de capacitación en Zoom con la plataforma Alkyo",
+    bg: "#E6EBF1",
     maxWidth: 1020,
     stickyTop: 120,
   },
@@ -27,8 +27,8 @@ const CARDS: FeatureCard[] = [
     title: "Análisis de datos en tiempo real",
     text: "Accedes a un Dashboard analítico que te permite analizar datos de todas tus MiPyMEs afiliadas que utilizan la plataforma. Entiendes mejor sus retos y cómo usan la IA, para diseñar soluciones más adecuadas.",
     img: `${IMG_BASE}/6wnttm9d41yBIcV1L3Pm2ZeG0.png`,
-    imgAlt: "Dashboard analítico de Logra con datos de MiPyMEs en tiempo real",
-    bg: "#d1d8ec",
+    imgAlt: "Dashboard analítico de Alkyo con datos de MiPyMEs en tiempo real",
+    bg: "#DCE7FD",
     stickyTop: 148,
     maxWidth: 1080,
   },
@@ -36,8 +36,8 @@ const CARDS: FeatureCard[] = [
     title: "Modelo ganar/ganar para todos",
     text: "Por ser invitadas por ti, tus empresas afiliadas acceden a la versión gratuita de forma permanente. Si contratan la versión Pro, les damos un descuento por ser de tu red y a ti te entregamos un porcentaje.",
     img: `${IMG_BASE}/zta85ldCA6NjTyLRFEz6bJrIXtY.png`,
-    imgAlt: "Pantalla de bienvenida de Logra personalizada para Colsubsidio",
-    bg: "#dde4ea",
+    imgAlt: "Pantalla de bienvenida de Alkyo personalizada para Colsubsidio",
+    bg: "#D5F3EF",
     stickyTop: 176,
     maxWidth: 1200,
   },
@@ -45,7 +45,7 @@ const CARDS: FeatureCard[] = [
 
 export function CamarasFeatureCards() {
   return (
-    <section style={{ background: "#faf9f7", padding: "90px 20px 100px" }}>
+    <section style={{ background: "#FFFFFF", padding: "90px 20px 100px" }}>
       <style>{`
         .cam-feature-card {
           position: sticky;
@@ -63,7 +63,7 @@ export function CamarasFeatureCards() {
           font-weight: 500;
           letter-spacing: -2.4px;
           line-height: 1.1;
-          color: #001f47;
+          color: #0A1A33;
           margin: 0;
         }
         .cam-feature-text {

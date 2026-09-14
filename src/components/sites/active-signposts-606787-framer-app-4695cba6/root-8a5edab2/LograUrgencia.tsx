@@ -2,7 +2,7 @@
 
 import { LograAppear } from "./LograAppear";
 
-/* ---------- Icons (22px, stroke #5b5bd6) ---------- */
+/* ---------- Icons (22px, stroke #14B8A6) ---------- */
 
 function ClockIcon() {
   return (
@@ -11,7 +11,7 @@ function ClockIcon() {
       height="22"
       viewBox="0 0 24 24"
       fill="none"
-      stroke="#5b5bd6"
+      stroke="#14B8A6"
       strokeWidth="1.8"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -29,7 +29,7 @@ function TrendingDownIcon() {
       height="22"
       viewBox="0 0 24 24"
       fill="none"
-      stroke="#5b5bd6"
+      stroke="#14B8A6"
       strokeWidth="1.8"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -47,7 +47,7 @@ function CloverIcon() {
       height="22"
       viewBox="0 0 24 24"
       fill="none"
-      stroke="#5b5bd6"
+      stroke="#14B8A6"
       strokeWidth="1.8"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -82,7 +82,7 @@ const STATS: { icon: React.ReactNode; title: string; text: string }[] = [
 
 export function LograUrgencia() {
   return (
-    <section style={{ background: "#faf9f7", padding: "100px 20px" }}>
+    <section style={{ background: "#FFFFFF", padding: "100px 20px" }}>
       <style>{`
         .logra-urg-grid {
           margin-top: 80px;
@@ -101,7 +101,7 @@ export function LograUrgencia() {
             display: "inline-flex",
             alignItems: "center",
             gap: 6,
-            border: "1px solid #e5e7eb",
+            border: "1px solid #E6EBF1",
             background: "#fff",
             borderRadius: 40,
             padding: "6px 12px",
@@ -112,7 +112,7 @@ export function LograUrgencia() {
             height="14"
             viewBox="0 0 24 24"
             fill="none"
-            stroke="#004bbd"
+            stroke="#2563EB"
             strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -125,7 +125,7 @@ export function LograUrgencia() {
               fontFamily: "var(--font-logra-body), Inter, sans-serif",
               fontSize: 14,
               fontWeight: 500,
-              color: "#001f47",
+              color: "#0A1A33",
             }}
           >
             Urgencia
@@ -143,10 +143,10 @@ export function LograUrgencia() {
             lineHeight: "38.4px",
           }}
         >
-          <span style={{ display: "block", color: "#001f47" }}>
+          <span style={{ display: "block", color: "#0A1A33" }}>
             2 de cada 3 PyMEs fracasan en los primeros 5 años.
           </span>
-          <span style={{ display: "block", color: "#004bbd" }}>
+          <span style={{ display: "block", color: "#2563EB" }}>
             ¿De qué lado quieres estar?
           </span>
         </h2>
@@ -167,7 +167,7 @@ export function LograUrgencia() {
                   style={{
                     width: 48,
                     height: 48,
-                    background: "rgba(99,102,241,0.08)",
+                    background: "rgba(20, 184, 166,0.08)",
                     borderRadius: 12,
                     display: "flex",
                     alignItems: "center",
@@ -183,7 +183,7 @@ export function LograUrgencia() {
                     fontSize: 24,
                     fontWeight: 500,
                     letterSpacing: "-1.2px",
-                    color: "#001f47",
+                    color: "#0A1A33",
                     maxWidth: 360,
                   }}
                 >

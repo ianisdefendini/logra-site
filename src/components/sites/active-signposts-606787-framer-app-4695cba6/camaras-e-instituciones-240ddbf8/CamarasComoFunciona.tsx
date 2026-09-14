@@ -5,7 +5,7 @@ const CALENDLY_DEMO =
 
 export function CamarasComoFunciona() {
   return (
-    <section style={{ background: "#faf9f7", padding: "68px 20px 0" }}>
+    <section style={{ background: "#FFFFFF", padding: "68px 20px 0" }}>
       <style>{`
         .cam-como-title {
           font-family: var(--font-logra-heading), Poppins, sans-serif;
@@ -13,7 +13,7 @@ export function CamarasComoFunciona() {
           font-weight: 500;
           letter-spacing: -2.4px;
           line-height: 1.1;
-          color: #001f47;
+          color: #0A1A33;
           max-width: 1140px;
           margin: 24px auto 0;
         }
@@ -28,14 +28,14 @@ export function CamarasComoFunciona() {
               display: "inline-flex",
               alignItems: "center",
               gap: 8,
-              border: "1px solid rgba(0, 75, 189, 0.25)",
+              border: "1px solid rgba(37, 99, 235, 0.25)",
               borderRadius: 999,
               padding: "8px 16px",
               background: "#fff",
               fontFamily: "var(--font-logra-body), Inter, sans-serif",
               fontSize: 15,
               fontWeight: 500,
-              color: "#004bbd",
+              color: "#2563EB",
             }}
           >
             <span
@@ -44,7 +44,7 @@ export function CamarasComoFunciona() {
                 width: 6,
                 height: 6,
                 borderRadius: "50%",
-                background: "#004bbd",
+                background: "#2563EB",
                 display: "inline-block",
               }}
             />
@@ -83,7 +83,7 @@ export function CamarasComoFunciona() {
             style={{
               display: "inline-block",
               marginTop: 36,
-              background: "#004bbd",
+              background: "#2563EB",
               color: "#fff",
               fontFamily: "var(--font-logra-body), Inter, sans-serif",
               fontSize: 16,

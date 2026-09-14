@@ -16,17 +16,17 @@ type Card = {
 
 const CARDS: Card[] = [
   {
-    bg: "#d3d8ed",
+    bg: "#DCE7FD",
     title: "Tablero  - Tu día día en orden",
     paragraphs: [
       "Organiza tareas, clientes y pendientes para priorizar mejor tu semana, enfocarte en lo importante y no perder más tiempo en lo innecesario.",
       "Mientras que tu Mentor virtual ejecuta tareas por tí en segundos, mides la eficiencia del equipo y juntos logran más para impulsar el crecimiento del negocio.",
     ],
     img: `${IMG_BASE}/gZZrnRwUhv6t0xwFUMssg7vQME.png`,
-    alt: "Tablero — organizador de tareas de Logra",
+    alt: "Tablero — organizador de tareas de Alkyo",
   },
   {
-    bg: "#eef7e1",
+    bg: "#D5F3EF",
     title: "Mentor virtual - Un negocio más eficiente",
     paragraphs: [
       "Pregunta lo que sea y obtén respuestas 100% personalizadas para tu negocio. Tu Mentor ejecuta tareas por ti en segundos.",
@@ -36,24 +36,24 @@ const CARDS: Card[] = [
     alt: "Mentor Virtual — chat de inteligencia artificial",
   },
   {
-    bg: "#f0ebd8",
+    bg: "#E6EBF1",
     title: "Pilares - Una estrategia clara",
     paragraphs: [
       "Estructura los pilares clave de tu negocio —ventas, marketing, equipo y finanzas —para que todos estén alineados y enfocados en resultados.",
       "Desde tu pitch de ventas hasta el perfil de tu cliente ideal, transforma tu conocimiento en formatos claros y accionables. Cada pilar completado entrena mejor a tu Mentor virtual.",
     ],
     img: `${IMG_BASE}/jZiqhgr331bQP8aOgJRkIGETWE.png`,
-    alt: "Pilares — estrategia del negocio en Logra",
+    alt: "Pilares — estrategia del negocio en Alkyo",
   },
   {
-    bg: "#ebd8eb",
+    bg: "#D6DDEA",
     title: "Progreso - Decisiones más educadas",
     paragraphs: [
       "Monitorea de tu negocio semana tras semana, visualiza los miembros del equipo más eficientes y en que área enfocan su tiempo.",
       "Estos indicadores te ayudan a tener perspectiva sobre tu empresa y tener datos reales que realmente te permiten tomar mejores decisiones, dejando de navegar a ciegas.",
     ],
     img: `${IMG_BASE}/S3FC1yLHjSfBjcOyOpLMZESdc.png`,
-    alt: "Progreso — analítica semanal de Logra",
+    alt: "Progreso — analítica semanal de Alkyo",
   },
 ];
 
@@ -121,7 +121,7 @@ export function OldHomeFuncionalidades() {
         .ohfx-left {
           position: sticky;
           top: 96px;
-          background: #dbe4eb;
+          background: #F3F6FA;
           border-radius: 24px;
           padding: 48px;
           height: 632px;
@@ -136,7 +136,7 @@ export function OldHomeFuncionalidades() {
           font-weight: 500;
           line-height: 52.8px;
           letter-spacing: -2.4px;
-          color: var(--logra-navy, #001f47);
+          color: var(--logra-navy, #0A1A33);
           margin: 0;
         }
         .ohfx-shot {
@@ -177,7 +177,7 @@ export function OldHomeFuncionalidades() {
           font-size: 24px;
           font-weight: 500;
           letter-spacing: -1.2px;
-          color: var(--logra-navy, #001f47);
+          color: var(--logra-navy, #0A1A33);
           margin: 0 0 24px;
         }
         .ohfx-card p {

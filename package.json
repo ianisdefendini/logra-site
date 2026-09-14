@@ -1,8 +1,8 @@
 {
-  "name": "logra-site",
-  "version": "1.0.0",
+  "name": "alkyo-site",
+  "version": "2.0.0",
   "private": true,
-  "description": "Logra marketing site — ES/FR/EN",
+  "description": "Alkyo marketing site — ES/FR/EN",
   "engines": {
     "node": ">=20"
   },

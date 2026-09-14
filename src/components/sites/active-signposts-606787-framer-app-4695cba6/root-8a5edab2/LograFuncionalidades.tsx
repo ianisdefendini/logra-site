@@ -14,28 +14,28 @@ type Card = {
 
 const CARDS: Card[] = [
   {
-    bg: "#d3d8ed",
+    bg: "#DCE7FD",
     title: "Chat de inteligencia artificial",
     text: "Conversa con tu inteligencia artificial para ejecutar tareas, tácticas o simplemente obtener apoyo, planes o ideas según tu necesidad.",
     img: `${IMG_BASE}/aFtKPP8NI7AEg5egpAEJqhXGtZU.png`,
     alt: "Mentor Virtual — chat de inteligencia artificial",
   },
   {
-    bg: "#eef7e1",
+    bg: "#D5F3EF",
     title: "Organizador de Tareas",
     text: "Organiza tus tareas y metas en un Tablero que te permite asignar, dar seguimiento y filtrar todo lo importante de tu semana.",
     img: `${IMG_BASE}/gZZrnRwUhv6t0xwFUMssg7vQME.png`,
     alt: "Tablero — organizador de tareas",
   },
   {
-    bg: "#f0ebd8",
+    bg: "#E6EBF1",
     title: "Formatos para tu Estrategia",
     text: "Entrena a tu inteligencia artificial con formatos inteligentes para que conozca a tu empresa mejor que cualquier Asesor y te de respuestas súper personalizadas.",
     img: `${IMG_BASE}/jZiqhgr331bQP8aOgJRkIGETWE.png`,
     alt: "Estrategia — formatos para tu estrategia",
   },
   {
-    bg: "#ebd8eb",
+    bg: "#D6DDEA",
     title: "Progreso semanal",
     text: "Mide las tareas que completas y el uso de inteligencia artificial de tu equipo para entender el tiempo ahorrado y la eficiencia de tu equipo.",
     img: `${IMG_BASE}/S3FC1yLHjSfBjcOyOpLMZESdc.png`,
@@ -105,7 +105,7 @@ export function LograFuncionalidades() {
         .lfx-left {
           position: sticky;
           top: 96px;
-          background: #dbe4eb;
+          background: #F3F6FA;
           border-radius: 24px;
           padding: 48px;
           height: 632px;
@@ -120,7 +120,7 @@ export function LograFuncionalidades() {
           font-weight: 500;
           line-height: 52.8px;
           letter-spacing: -2.4px;
-          color: var(--logra-navy, #001f47);
+          color: var(--logra-navy, #0A1A33);
           margin: 0;
         }
         .lfx-shot {
@@ -160,7 +160,7 @@ export function LograFuncionalidades() {
           font-size: 24px;
           font-weight: 500;
           letter-spacing: -1.2px;
-          color: var(--logra-navy, #001f47);
+          color: var(--logra-navy, #0A1A33);
           margin: 0 0 24px;
         }
         .lfx-card p {

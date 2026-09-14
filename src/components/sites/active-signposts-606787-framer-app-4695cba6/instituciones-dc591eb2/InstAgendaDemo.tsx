@@ -2,7 +2,7 @@ import { LograAppear } from "../root-8a5edab2/LograAppear";
 
 export function InstAgendaDemo() {
   return (
-    <section style={{ background: "#faf9f7", padding: "96px 20px 60px" }}>
+    <section style={{ background: "#FFFFFF", padding: "96px 20px 60px" }}>
       <style>{`
         .inst-demo-title {
           font-family: var(--font-logra-heading), Poppins, sans-serif;
@@ -10,7 +10,7 @@ export function InstAgendaDemo() {
           font-weight: 500;
           letter-spacing: -2.4px;
           line-height: 1.1;
-          color: #001f47;
+          color: #0A1A33;
           max-width: 940px;
           margin: 0 auto;
         }
@@ -18,7 +18,7 @@ export function InstAgendaDemo() {
           max-width: 1110px;
           margin: 56px auto 0;
           background: #fff;
-          border: 1px solid #ececec;
+          border: 1px solid #E6EBF1;
           border-radius: 8px;
           box-shadow: 0 1px 8px rgba(0, 0, 0, 0.06);
           overflow: hidden;
@@ -38,7 +38,7 @@ export function InstAgendaDemo() {
       <div style={{ maxWidth: 1280, margin: "0 auto", textAlign: "center" }}>
         <LograAppear>
           <h2 className="inst-demo-title">
-            Agenda una llamada para conocer Logra
+            Agenda una llamada para conocer Alkyo
           </h2>
         </LograAppear>
 
@@ -63,7 +63,7 @@ export function InstAgendaDemo() {
           <div className="inst-demo-calendly">
             <iframe
               src="https://calendly.com/logra-ianis-defendini/30-min-call"
-              title="Calendly — Agenda una llamada para conocer Logra"
+              title="Calendly — Agenda una llamada para conocer Alkyo"
               loading="lazy"
             />
           </div>

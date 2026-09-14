@@ -9,21 +9,21 @@ import { SobreEquipo } from "@/components/sites/active-signposts-606787-framer-a
 import { SobreCta } from "@/components/sites/active-signposts-606787-framer-app-4695cba6/sobre-nosotros-780d001d/SobreCta";
 
 export const metadata: Metadata = {
-  title: "Logra - Organiza y crece tu negocio con IA",
+  title: "Alkyo - Organiza y crece tu negocio con IA",
   description:
-    "En Logra, creemos en el poder de las PyMEs para transformar Latinoamérica.",
+    "En Alkyo, creemos en el poder de las PyMEs para transformar Latinoamérica.",
 };
 
 export default function LograSobreNosotrosPage() {
   return (
-    <main style={{ background: "#faf9f7", overflowX: "clip" }}>
+    <main style={{ background: "#FFFFFF", overflowX: "clip" }}>
       <LograNavbar />
       <SobreHero />
       <SobreProblema />
       <SobreComo />
       <SobreEquipo />
       <SobreCta />
-      <footer style={{ background: "#111111" }}>
+      <footer style={{ background: "#0A1A33" }}>
         <LograFooterCta />
         <LograFooter />
       </footer>

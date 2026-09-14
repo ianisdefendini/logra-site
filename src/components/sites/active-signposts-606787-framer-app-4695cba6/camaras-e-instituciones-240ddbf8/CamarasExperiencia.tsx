@@ -25,12 +25,12 @@ const AVATARS = [
 
 export function CamarasExperiencia() {
   return (
-    <section style={{ background: "#faf9f7", padding: "60px 20px 0" }}>
+    <section style={{ background: "#FFFFFF", padding: "60px 20px 0" }}>
       <style>{`
         .cam-exp-card {
           max-width: 1400px;
           margin: 0 auto;
-          background: #004bbd;
+          background: #2563EB;
           border-radius: 24px;
           padding: 32px 40px 72px;
           text-align: center;

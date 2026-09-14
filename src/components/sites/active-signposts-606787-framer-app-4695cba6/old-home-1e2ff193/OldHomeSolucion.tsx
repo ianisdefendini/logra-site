@@ -15,7 +15,7 @@ const features = [
         height="24"
         viewBox="0 0 24 24"
         fill="none"
-        stroke="#004bbd"
+        stroke="#2563EB"
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -39,7 +39,7 @@ const features = [
         height="24"
         viewBox="0 0 24 24"
         fill="none"
-        stroke="#004bbd"
+        stroke="#2563EB"
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -63,7 +63,7 @@ const features = [
         height="24"
         viewBox="0 0 24 24"
         fill="none"
-        stroke="#004bbd"
+        stroke="#2563EB"
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -87,7 +87,7 @@ const features = [
         height="24"
         viewBox="0 0 24 24"
         fill="none"
-        stroke="#004bbd"
+        stroke="#2563EB"
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -126,7 +126,7 @@ export function OldHomeSolucion() {
           font-weight: 500;
           line-height: 52.8px;
           letter-spacing: -2.4px;
-          color: #001f47;
+          color: #0A1A33;
           max-width: 1000px;
           margin: 0;
         }
@@ -161,7 +161,7 @@ export function OldHomeSolucion() {
 
       <LograAppear delay={0} style={{ width: "100%" }}>
         <h2 className="oh-sol-h2">
-          Logra es la plataforma más simple para organizar y potencializar tu
+          Alkyo es la plataforma más simple para organizar y potencializar tu
           PyME, con inteligencia artificial.
         </h2>
       </LograAppear>
@@ -208,7 +208,7 @@ export function OldHomeSolucion() {
                   fontFamily: "var(--font-logra-heading), Poppins, sans-serif",
                   fontSize: 20,
                   fontWeight: 600,
-                  color: "#001f47",
+                  color: "#0A1A33",
                   margin: 0,
                 }}
               >

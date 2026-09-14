@@ -11,7 +11,7 @@ export function BancosHero() {
   return (
     <section
       style={{
-        background: "#faf9f7",
+        background: "#FFFFFF",
         paddingTop: 82,
         overflow: "hidden",
       }}
@@ -23,7 +23,7 @@ export function BancosHero() {
           font-weight: 500;
           letter-spacing: -3.6px;
           line-height: 1.1;
-          color: #171717;
+          color: #0A1A33;
           margin: 0 auto;
           max-width: 1045px;
         }
@@ -85,14 +85,14 @@ export function BancosHero() {
               display: "inline-flex",
               alignItems: "center",
               gap: 8,
-              border: "1px solid rgba(0, 75, 189, 0.25)",
+              border: "1px solid rgba(37, 99, 235, 0.25)",
               borderRadius: 999,
               padding: "8px 16px",
               background: "#fff",
               fontFamily: "var(--font-logra-body), Inter, sans-serif",
               fontSize: 15,
               fontWeight: 500,
-              color: "#004bbd",
+              color: "#2563EB",
             }}
           >
             <span
@@ -101,7 +101,7 @@ export function BancosHero() {
                 width: 6,
                 height: 6,
                 borderRadius: "50%",
-                background: "#004bbd",
+                background: "#2563EB",
                 display: "inline-block",
               }}
             />
@@ -117,7 +117,7 @@ export function BancosHero() {
 
         <LograAppear delay={0.2}>
           <p className="bancos-hero-sub">
-            Logra es la plataforma más simple e inteligente para ayudar a tus
+            Alkyo es la plataforma más simple e inteligente para ayudar a tus
             clientes PyME a mejorar su perfil financiero.
           </p>
         </LograAppear>
@@ -129,7 +129,7 @@ export function BancosHero() {
               className="bancos-btn-blue"
               style={{
                 display: "inline-block",
-                background: "#004bbd",
+                background: "#2563EB",
                 color: "#fff",
                 fontFamily: "var(--font-logra-body), Inter, sans-serif",
                 fontSize: 16,
@@ -148,11 +148,11 @@ export function BancosHero() {
               style={{
                 display: "inline-block",
                 background: "transparent",
-                color: "#001f47",
+                color: "#0A1A33",
                 fontFamily: "var(--font-logra-body), Inter, sans-serif",
                 fontSize: 16,
                 fontWeight: 500,
-                border: "1px solid #001f47",
+                border: "1px solid #0A1A33",
                 borderRadius: 12,
                 padding: "17px 32px",
                 textDecoration: "none",

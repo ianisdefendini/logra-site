@@ -14,14 +14,14 @@ import { CamarasFooter } from "@/components/sites/active-signposts-606787-framer
 export const metadata: Metadata = {
   title: "Capacita tus MiPyMEs y dales acceso a inteligencia artificial",
   description:
-    "Logra es una solución llave en mano que impulsa a tus afiliados y te da acceso a datos increíbles para entenderlos mejor.",
+    "Alkyo es una solución llave en mano que impulsa a tus afiliados y te da acceso a datos increíbles para entenderlos mejor.",
 };
 
 export default function CamarasEInstitucionesPage() {
   return (
-    <main style={{ background: "#faf9f7", overflowX: "clip" }}>
+    <main style={{ background: "#FFFFFF", overflowX: "clip" }}>
       <style>{`
-        .cam-btn-blue:hover { background: #003da3 !important; }
+        .cam-btn-blue:hover { background: #1D4ED8 !important; }
       `}</style>
       <LograNavbar />
       <CamarasHero />
@@ -32,7 +32,7 @@ export default function CamarasEInstitucionesPage() {
       <CamarasSolucion />
       <CamarasExperiencia />
       <CamarasAgendaDemo />
-      <footer style={{ background: "#111111" }}>
+      <footer style={{ background: "#0A1A33" }}>
         <CamarasFooterCta />
         <CamarasFooter />
       </footer>

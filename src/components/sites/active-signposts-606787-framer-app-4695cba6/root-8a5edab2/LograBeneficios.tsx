@@ -128,7 +128,7 @@ export function LograBeneficios() {
   const TabIcon = tab.Icon;
 
   return (
-    <section style={{ background: "#f2f4f7", padding: "100px 0" }}>
+    <section style={{ background: "#F3F6FA", padding: "100px 0" }}>
       <style>{`
         @keyframes lograBenefFadeIn {
           from { opacity: 0; }
@@ -145,18 +145,18 @@ export function LograBeneficios() {
           gap: 12px;
           padding-bottom: 18px;
           border: none;
-          border-bottom: 1px solid #d1d5db;
+          border-bottom: 1px solid #E6EBF1;
           background: none;
           cursor: pointer;
           transition: color 0.25s, border-color 0.25s;
           font-family: var(--font-logra-body), Inter, sans-serif;
           font-size: 18px;
           font-weight: 500;
-          color: #001f47;
+          color: #0A1A33;
         }
         .logra-benef-tab[data-active="true"] {
-          border-bottom: 2px solid #0d3baf;
-          color: #0d3baf;
+          border-bottom: 2px solid #2563EB;
+          color: #2563EB;
         }
         .logra-benef-content {
           margin-top: 64px;
@@ -191,14 +191,14 @@ export function LograBeneficios() {
               display: "inline-flex",
               alignItems: "center",
               gap: 6,
-              border: "1px solid #e5e7eb",
+              border: "1px solid #E6EBF1",
               background: "#fff",
               borderRadius: 40,
               padding: "6px 12px",
               fontFamily: "var(--font-logra-body), Inter, sans-serif",
               fontSize: 14,
               fontWeight: 500,
-              color: "#004bbd",
+              color: "#2563EB",
             }}
           >
             <span style={{ fontSize: 16, lineHeight: 1 }}>•</span>
@@ -217,12 +217,12 @@ export function LograBeneficios() {
             fontWeight: 500,
             letterSpacing: "-1.6px",
             lineHeight: "38.4px",
-            color: "#001f47",
+            color: "#0A1A33",
           }}
         >
           Las MiPyMEs que adoptan inteligencia artificial
           <br />
-          tienen <span style={{ color: "#004bbd" }}>40% más probabilidad de crecer.</span>
+          tienen <span style={{ color: "#2563EB" }}>40% más probabilidad de crecer.</span>
         </h2>
 
         {/* Tab bar */}
@@ -250,13 +250,13 @@ export function LograBeneficios() {
             {active === 0 && (
               <CompositeCard
                 src={COMPOSITE_TAB0}
-                alt="Emprendedora mejorando su estrategia con Logra"
+                alt="Emprendedora mejorando su estrategia con Alkyo"
               />
             )}
             {active === 1 && (
               <CompositeCard
                 src={COMPOSITE_TAB1}
-                alt="Emprendedora enfocada en lo importante con Logra"
+                alt="Emprendedora enfocada en lo importante con Alkyo"
               />
             )}
             {active === 2 && (
@@ -276,10 +276,10 @@ export function LograBeneficios() {
                 fontSize: 24,
                 fontWeight: 500,
                 letterSpacing: "-1.2px",
-                color: "#001f47",
+                color: "#0A1A33",
               }}
             >
-              <span style={{ color: "#0d3baf", display: "inline-flex" }}>
+              <span style={{ color: "#2563EB", display: "inline-flex" }}>
                 <TabIcon size={22} />
               </span>
               {tab.heading}

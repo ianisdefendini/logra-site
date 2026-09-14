@@ -8,7 +8,7 @@ const CAM_IMG_BASE =
 
 export function BancosInstituciones() {
   return (
-    <section style={{ background: "#faf9f7", padding: "42px 20px 60px" }}>
+    <section style={{ background: "#FFFFFF", padding: "42px 20px 60px" }}>
       <style>{`
         .bancos-inst-logos {
           display: flex;
@@ -31,7 +31,7 @@ export function BancosInstituciones() {
               fontWeight: 600,
               letterSpacing: "-0.8px",
               lineHeight: "28px",
-              color: "#001f47",
+              color: "#0A1A33",
               maxWidth: 900,
               margin: "0 auto",
             }}

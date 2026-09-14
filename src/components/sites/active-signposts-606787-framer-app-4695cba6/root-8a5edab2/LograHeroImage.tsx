@@ -75,7 +75,7 @@ export function LograHeroImage() {
           {/* MacBook frame (full mockup) */}
           <img
             src={`${IMG_BASE}/J1SsikyFjYWsHj7AeGtIFoSVOQ.png`}
-            alt="Tablero de Logra en una laptop"
+            alt="Tablero de Alkyo en una laptop"
             style={{ display: "block", width: "100%", height: "auto" }}
           />
           {/* Crisp dashboard layered inside the screen bezel */}

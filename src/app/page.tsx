@@ -14,7 +14,7 @@ import { LograFooter } from "@/components/sites/active-signposts-606787-framer-a
 
 export default function LograHomePage() {
   return (
-    <main style={{ background: "#faf9f7", overflowX: "clip" }}>
+    <main style={{ background: "#FFFFFF", overflowX: "clip" }}>
       <LograNavbar />
       <LograHero />
       <LograHeroImage />
@@ -26,7 +26,7 @@ export default function LograHomePage() {
       <LograBeneficios />
       <LograPricing />
       <LograOportunidad />
-      <footer style={{ background: "#111111" }}>
+      <footer style={{ background: "#0A1A33" }}>
         <LograFooterCta />
         <LograFooter />
       </footer>

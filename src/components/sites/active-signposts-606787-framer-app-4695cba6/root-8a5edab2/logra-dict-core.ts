@@ -1,5 +1,5 @@
 export const DICT_FR_CORE: Record<string, string> = {
-  "Logra": "Logra",
+  "Alkyo": "Alkyo",
   "Micro y pequeñas empresas": "Micro et petites entreprises",
   "Cámaras e Instituciones": "Chambres et institutions",
   "Nosotros": "À propos",
@@ -23,7 +23,7 @@ export const DICT_FR_CORE: Record<string, string> = {
 };
 
 export const DICT_EN_CORE: Record<string, string> = {
-  "Logra": "Logra",
+  "Alkyo": "Alkyo",
   "Micro y pequeñas empresas": "Micro and small businesses",
   "Cámaras e Instituciones": "Chambers and Institutions",
   "Nosotros": "About us",

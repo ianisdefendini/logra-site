@@ -7,9 +7,9 @@ function IconTile({ children }: { children: React.ReactNode }) {
         width: 52,
         height: 52,
         borderRadius: 14,
-        background: "#f2f2fe",
-        border: "1px solid #e5e5fb",
-        boxShadow: "0 2px 6px rgba(99, 102, 241, 0.12)",
+        background: "#E8F8F6",
+        border: "1px solid #CCEFEA",
+        boxShadow: "0 2px 6px rgba(20, 184, 166, 0.12)",
         display: "inline-flex",
         alignItems: "center",
         justifyContent: "center",
@@ -23,7 +23,7 @@ function IconTile({ children }: { children: React.ReactNode }) {
 
 const iconStroke = {
   fill: "none",
-  stroke: "#6366f1",
+  stroke: "#14B8A6",
   strokeWidth: 1.8,
   strokeLinecap: "round" as const,
   strokeLinejoin: "round" as const,
@@ -84,7 +84,7 @@ const ITEMS = [
 
 export function BancosProblema() {
   return (
-    <section style={{ background: "#faf9f7", padding: "58px 20px 90px" }}>
+    <section style={{ background: "#FFFFFF", padding: "58px 20px 90px" }}>
       <style>{`
         .bancos-problema-title {
           font-family: var(--font-logra-heading), Poppins, sans-serif;
@@ -114,7 +114,7 @@ export function BancosProblema() {
               display: "inline-flex",
               alignItems: "center",
               gap: 8,
-              border: "1px solid #e2e2dd",
+              border: "1px solid #E6EBF1",
               borderRadius: 999,
               padding: "8px 16px",
               background: "#fff",
@@ -143,7 +143,7 @@ export function BancosProblema() {
 
         <LograAppear delay={0.1}>
           <h2 className="bancos-problema-title">
-            <span style={{ color: "#1167ff" }}>
+            <span style={{ color: "#2563EB" }}>
               65% de las PyMEs fracasan en los primeros 5 años.
             </span>{" "}
             Cada cierre es un crédito en riesgo y una oportunidad perdida para
@@ -164,7 +164,7 @@ export function BancosProblema() {
                     fontWeight: 500,
                     letterSpacing: "-1.2px",
                     lineHeight: "28.8px",
-                    color: "#001f47",
+                    color: "#0A1A33",
                     maxWidth: 360,
                     margin: "28px auto 0",
                   }}

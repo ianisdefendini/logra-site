@@ -19,8 +19,8 @@ const CARDS: FeatureCard[] = [
     text: "Personaliza nuestra plataforma con tu identidad de marca y proporciona a tus clientes una plataforma para organizar y hacer crecer su negocio con inteligencia artificial.",
     img: `${IMG_BASE}/zRKlycdf4kmA4sIEKRBIBjoLFEI.png`,
     imgAlt:
-      "Pantalla de registro de la plataforma Logra en marca blanca con tu marca",
-    bg: "#f0ebd8",
+      "Pantalla de registro de la plataforma Alkyo en marca blanca con tu marca",
+    bg: "#E6EBF1",
     maxWidth: 1020,
     stickyTop: 120,
   },
@@ -29,7 +29,7 @@ const CARDS: FeatureCard[] = [
     text: "Creamos una cuenta de forma automatizada para cada cliente e invitamos a cada empresa de forma personalizada enviándoles correos y Whatsapp hasta que empiece en usar la plataforma.",
     img: `${IMG_BASE}/dUMPWD0eUg9Oy8U97jJIyoRyY.png`,
     imgAlt: "Panel de empresas registradas con filtros y estadísticas",
-    bg: "#d1d8ec",
+    bg: "#DCE7FD",
     maxWidth: 1080,
     stickyTop: 148,
   },
@@ -38,8 +38,8 @@ const CARDS: FeatureCard[] = [
     text: "En tu Dashboard, accedes a información precisa en tiempo real de tus PyMEs para ver el desempeño de tu red, detectar oportunidades y tomar decisiones que potencien tu ecosistema empresarial.",
     img: `${IMG_BASE}/PHt5AnSL8MxrlSuD06LjlG5fh0.png`,
     imgAlt:
-      "Dashboard institucional de Logra con métricas de PyMEs en tiempo real",
-    bg: "#dde4ea",
+      "Dashboard institucional de Alkyo con métricas de PyMEs en tiempo real",
+    bg: "#D5F3EF",
     maxWidth: 1200,
     stickyTop: 176,
   },
@@ -47,7 +47,7 @@ const CARDS: FeatureCard[] = [
 
 export function BancosFeatureCards() {
   return (
-    <section style={{ background: "#faf9f7", padding: "90px 20px 100px" }}>
+    <section style={{ background: "#FFFFFF", padding: "90px 20px 100px" }}>
       <style>{`
         .bancos-feature-card {
           position: sticky;
@@ -65,7 +65,7 @@ export function BancosFeatureCards() {
           font-weight: 500;
           letter-spacing: -2.4px;
           line-height: 1.1;
-          color: #001f47;
+          color: #0A1A33;
           margin: 0;
         }
         .bancos-feature-text {
