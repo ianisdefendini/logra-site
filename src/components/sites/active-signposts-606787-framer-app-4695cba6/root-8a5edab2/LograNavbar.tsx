@@ -81,7 +81,7 @@ export function LograNavbar() {
           aria-label="Alkyo"
           style={{ display: "inline-flex", textDecoration: "none" }}
         >
-          <AlkyoLogo size={30} />
+          <AlkyoLogo size={28} poweredBy />
         </a>
 
         {/* center links (desktop) */}

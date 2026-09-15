@@ -73,7 +73,7 @@ export function BancosFooter() {
       <div style={{ maxWidth: 1400, margin: "0 auto" }}>
         <div className="bancos-footer-top">
           <div>
-            <AlkyoLogo size={30} tone="light" tagline />
+            <AlkyoLogo size={30} tone="light" tagline poweredBy />
             <div style={{ display: "flex", gap: 12, marginTop: 48 }}>
               {socialLinks.map((social) => (
                 <a
